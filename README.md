@@ -1,1 +1,3 @@
-# TumorDetectionandLocalisation
+🧠🔍🤖 This project is a proof-of-concept for using machine learning to automate the detection and localization of brain tumors in MRI scans. Our approach is based on transfer learning with the powerful ResNet50 model 🚀 for image preprocessing, and the ResUNet neural network architecture 🧬 for segmentation.
+
+We utilized the Brain Tumor Segmentation (BraTS) Challenge dataset 📊, which contains MRI scans from patients with different types of brain tumors. We preprocessed the images by normalizing the intensities and cropping them to a smaller size before using transfer learning to fine-tune the ResNet50 model on the training set. We froze the convolutional layers and trained only the fully connected layers. 🤓
